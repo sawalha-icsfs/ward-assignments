@@ -43,7 +43,6 @@ public class Main {
 			index++;
 		}
 
-		
 	}
 
 	private static Player enterPlayerName(int index) {
