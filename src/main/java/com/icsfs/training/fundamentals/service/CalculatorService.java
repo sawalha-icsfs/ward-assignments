@@ -1,4 +1,4 @@
-package com.icsfs.training.util;
+package com.icsfs.training.fundamentals.service;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.Random;
 
-public class CalculatorUtils {
+public class CalculatorService {
 
 	public final int validationValue = 10000;
 	private Random randNum = new Random();
