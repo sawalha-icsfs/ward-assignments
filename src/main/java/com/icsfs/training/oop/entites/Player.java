@@ -1,11 +1,12 @@
 package com.icsfs.training.oop.entites;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Player {
 	private String name;
 	private int score;
-	private Card[] cards;
+	private List<Card> cards;
 
 	public String getName() {
 		return name;
@@ -23,11 +24,11 @@ public class Player {
 		this.score = score;
 	}
 
-	public Card[] getCards() {
+	public List<Card> getCards() {
 		return cards;
 	}
 
-	public void setCards(Card[] cards) {
+	public void setCards(List<Card> cards) {
 		this.cards = cards;
 	}
 
@@ -39,7 +40,7 @@ public class Player {
 		builder.append(", score=");
 		builder.append(score);
 		builder.append(", cards=");
-		builder.append(Arrays.toString(cards));
+		builder.append(cards);
 		builder.append("]");
 		return builder.toString();
 	}
