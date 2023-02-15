@@ -6,7 +6,7 @@ import java.util.Scanner;
 import com.icsfs.training.fundamentals.service.CalculatorService;
 
 //Day 2 Practice: Fundamentals
-public class Fundamentals {
+public class Day2Fundamentals {
 
 	private static CalculatorService calculatorService = new CalculatorService();
 	private static Scanner input = new Scanner(System.in);
