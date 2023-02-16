@@ -60,10 +60,10 @@ public class Student {
 		builder.append(id);
 		builder.append(", name=");
 		builder.append(name);
-		builder.append(", average=");
-		builder.append(average);
 		builder.append(", email=");
 		builder.append(email);
+		builder.append(", average=");
+		builder.append(average);
 		builder.append("]");
 		return builder.toString();
 	}

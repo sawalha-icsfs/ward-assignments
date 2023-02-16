@@ -1,4 +1,4 @@
-package com.icsfs.training.jdbc;
+package com.icsfs.training.jdbc.service;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

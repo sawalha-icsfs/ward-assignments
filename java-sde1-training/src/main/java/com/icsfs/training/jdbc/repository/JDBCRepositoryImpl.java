@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import com.icsfs.training.jdbc.MyJDBCConnection;
 import com.icsfs.training.jdbc.entities.Student;
+import com.icsfs.training.jdbc.service.MyJDBCConnection;
 
 public class JDBCRepositoryImpl {
 
