@@ -1,4 +1,4 @@
 # ward-assignments
 
-#Web-Development --> Week 2
-#
+java-sde1-training Project contains Week 1 assignments
+Web-Development Folder contains week 2 assignments.
